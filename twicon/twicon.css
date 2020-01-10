@@ -1,17 +1,18 @@
 /*!
 * @package twicon
-* @version 1.0.1
-* @author twicon https://twicon.com
-* @copyright Copyright (c) 2015 - 2018 twicon
-* @license - https://twicon.com/license/
+* @version 1.000
+* @author twicon https://twicon.page
+* @copyright Copyright (c) 2020 twicon
+* @license - https://twicon.page/license/
 */
 @font-face {
   font-family: twicon;
   font-weight: 400;
   font-style: Regular;
-  src: url(fonts/twicon.woff2) format("woff2"),
-    url(fonts/twicon.woff) format("woff");
+  src: url(twicon.woff2) format("woff2"),
+    url(twicon.woff) format("woff");
 }
+
 [class*=" twicon-"],
 [class^="twicon-"] {
   font-family: twicon !important;
@@ -272,10 +273,10 @@
   content: "\a050";
 }
 .twicon-trash:before {
-  content: "\a051";
+  content: "\a052";
 }
 .twicon-recycling:before {
-  content: "\a052";
+  content: "\a051";
 }
 .twicon-queue-box:before {
   content: "\a053";
