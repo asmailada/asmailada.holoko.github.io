@@ -9,8 +9,7 @@
   font-family: twicon;
   font-weight: 400;
   font-style: Regular;
-  src: url(twicon.woff2) format("woff2"),
-    url(twicon.woff) format("woff");
+  src: url(twicon.woff2) format("woff2"), url(twicon.woff) format("woff");
 }
 
 [class*=" twicon-"],
@@ -513,7 +512,6 @@
   flex: 1;
 }
 
-
 /* HEADER */
 
 * {
@@ -560,12 +558,13 @@ body {
 @media screen and (max-width: 550px) {
   .header a {
     padding: 8px;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 15px;
-    margin-right: 2px;
+    margin-right: 0px;
+    font-weight: bold;
   }
   .header a.logo {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
   }
 }
