@@ -1029,3 +1029,22 @@
 </div>
   </body>
 </html>
+ 
+<script type="text/javascript">
+window.onload = function (){
+    // add li to class="iconlist"
+    var iconlist = document.getElementsByClassName("iconlist")[0];
+    const twiconClass = ["twicon-td-flag", "twicon-td-flag", "twicon-td-flag", "twicon-td-flag", "twicon-td-flag"];
+    const twiconDescription = ["台灣民主旗", "台灣民主旗", "台灣民主旗", "台灣民主旗", "台灣民主旗"];
+    console.log(iconlist);
+    console.log(twiconClass.length);
+    console.log(twiconDescription);
+
+    for(var i=0; i<twiconClass.length; i++){
+      console.log("appendChild");
+      var htmlcode = '<li><div class="icon-holder"><div class="icon"><i class="' + twiconClass[i] + '"></i></div><span> ' + twiconDescription[i] + ' </span></div></a></li>';
+      iconlist.innerHTML += htmlcode;
+      
+    }
+}
+</script>
