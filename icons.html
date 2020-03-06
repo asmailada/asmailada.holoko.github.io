@@ -6,128 +6,104 @@
     <title>icons | Taiwan Icon Font</title>
     <meta name="description" content="免費公開的台灣的Icon Font，景點、產品、交通、文化、動物、品牌、記號等有100個，我們跟台灣人說「STAND BY TAIWAN」">
     <link rel="stylesheet" href="twicon/twicon.css" />
-    <link rel="stylesheet" href="all.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/icons.css" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300|Open+Sans+Condensed:700&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="icons.js"></script>
+    <script type="text/javascript" src="js/icons.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155267535-1"></script>
-      <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
-       gtag('config', 'UA-155267535-1');
-     </script>
-    <style type="text/css">
-
-      .ico-title {
-        font-size: 2em;
-      }
-      .iconlist {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        text-align: center;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-      }
-      .iconlist li {
-        position: relative;
-        margin: 15px;
-        width: 150px;
-        cursor: pointer;
-      }
-
-      @media (max-width: 576px) {
-        .iconlist li {
-          margin: 5px;
-          width: 45%;
-        }
-      }
-
-      .iconlist li .icon-holder {
-        position: relative;
-        text-align: center;
-        border-radius: 13px;
-        overflow: hidden;
-        padding-bottom: 10px;
-        background: #ffffff;
-
-      }
-      .iconlist li .icon-holder:hover {
-        background: #2E7644;
-        color: #ffffff;
-      }
-      .iconlist li .icon-holder:hover .icon i {
-        color: #ffffff;
-      }
-      .iconlist li .icon-holder .icon {
-        padding: 20px;
-        text-align: center;
-      }
-      .iconlist li .icon-holder .icon i {
-        font-size: 3em;
-        color: #6EAC7D;
-      }
-      .iconlist li .icon-holder span {
-        font-size: 14px;
-        display: block;
-        margin-top: 5px;
-        border-radius: 3px;
-      }
-    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155267535-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-155267535-1');
+    </script>
   </head>
-
-
   <body>
 	  <div id="root">
-        <div data-reactroot="">
-            <section>
-                <header>
-                  <div class="header">
-                      <a href="index.html" class="logo">TW Icon Fonts</a>
-                      <div class="header-right">
-                        <a href="https://medium.com/twicon" target="_blank">Medium</a>
-                        <a href="icons.html">icons</a>
-                        <a class="active" href="get_started.html">Get Started</a>
-                      </div>
-                    </div>
-                  </header>
-                </section>
-    <section class="main-body">
-        <div class="page_title d-flex align-items-center">
+      <div data-reactroot="">
+        <section>
+          <header>
+            <div class="header">
+              <a href="index.html" class="logo">TW Icon Fonts</a>
+              <div class="header-right">
+                <a href="https://medium.com/twicon" target="_blank">Medium</a>
+                <a href="icons.html">icons</a>
+                <a class="active" href="get_started.html">Get Started</a>
+              </div>
+            </div>
+          </header>
+        </section>
+        <section class="main-body">
+          <div class="page_title d-flex align-items-center">
             <div class="container">
               <h1>icons</h1>
             </div>
           </div>
-
-
-	  <div class="main">
-        <div class="container">
-          <ul class="iconlist">
-            
-          </ul>
-        </div>
-	  </div>
-
-	</section>
-</div>
-<div class="container-fluid p-0">
-  <footer class="row m-0">
-    <div class="large__container">
-      <div class="row align-items-center">
-        <div class="col-12 col-lg-6 text-center text-lg-left">
-          <div class="twicon_copyright">
-            ©2019 All Rights Reserved by Taiwan icon Font.
+          <div class="main">
+            <div class="container">
+              <ul class="iconlist">
+                <!-- icons.js render icons -->
+              </ul>
+            </div>
+            <div class="container">
+              <button id="modal_btn">Modal</button>
+              <div id="myModal" class="twi-modal">
+                <div class="modal-content">
+                  <div class="modal-container">
+                    <div class="modal-icon">
+                      <div class="modal-icon-holder">
+                          <i class="twicon-taichung-park"></i>
+                      </div>
+                    </div>
+                    <div class="modal-title">
+                      <div class="modal-title-holder">
+                        <p>国立台中公園</p>
+                      </div>
+                      <div class="modal-download">
+                        <img src="imgs/download-solid.svg" height="8" width="8"/>
+                      </div>
+                    </div>
+                    <div class="modal-respectively-download">
+                      <div class="modal-download-font">
+                        <i class="twicon-taichung-park"></i>
+                      </div>
+                      <div class="modal-download-fontnum">
+                        <p>E000</p>
+                      </div>
+                      <div class="modal-download-iframe">
+                        <p>&lt;i class=“twicon-xxx”&gt;&lt;/i&gt;</p>
+                      </div>
+                    </div>
+                    <div class="modal-description">
+                      <p>日本統治時代に作られた台中公園は台中で最も歷史ある公園です。約10haの園区はかつては霧峰林家により寄付された「瑞軒」という名の私有庭園で、旧城北門楼とつながっています。公園内には人工湖、亭台楼閣、曲橋などの優美な施設、野外音楽ステージ、児童遊戲区、テニスコートなどのレジャー設備もあります。欧風建築の湖心亭は、縦貫鉄路の全線開通を記念し、1908年に建てられました。日本統治時代から台中市の象徵だった湖心亭は、1999年市定旧跡に指定されました。</p>
+                    </div>
+                    <div class="modal-address">
+                      <p>住所：台中市北区公園路37-1号
+                      </br>電話：+886-4-22224174</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
+      </div>
+      <div class="container-fluid p-0">
+        <footer class="row m-0">
+          <div class="large__container">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 text-center text-lg-left">
+                <div class="twicon_copyright">
+                  ©2019 All Rights Reserved by Taiwan icon Font.
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
-  </footer>
-</div>
-</div>
   </body>
 </html>
  
