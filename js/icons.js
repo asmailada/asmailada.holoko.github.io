@@ -12,7 +12,7 @@ window.onload = function(){
   Object.keys(twicon).forEach(function(key){
     var twiconclass = key;
     var twicondesc = twicon[key]["text-zh"];
-    var htmlcode = '<li onclick="showModal(this)"><div class="icon-holder"><div class="icon"><i class="' + twiconclass + '"></i></div><span> ' + twicondesc + ' </span></div></a></li>';
+    var htmlcode = '<li class="col col-12 col-sm-6 col-md-4 col-lg-2" onclick="showModal(this)"><div class="icon-holder"><div class="icon"><i class="' + twiconclass + '"></i></div><span> ' + twicondesc + ' </span></div></a></li>';
     iconlist.innerHTML += htmlcode;
   });
 }
