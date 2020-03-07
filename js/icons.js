@@ -25,8 +25,8 @@ function showModal(elem){
   var modaldescription_p = document.getElementsByClassName("modal-description")[0].getElementsByTagName("p")[0];
   var modaladdress_p = document.getElementsByClassName("modal-address")[0].getElementsByTagName("p")[0];
   // var modaldownload = document.getElementsByClassName("modal-download")[0];
-  var modaldownloadfont_i = document.getElementsByClassName("modal-download-font")[0].getElementsByTagName("i")[0];
-  // var modaldownloadfontnum_p = document.getElementsByClassName("modal-download-fontnum")[0].getElementsByTagName("p")[0];
+  var modaldownloadunicodeglyph_i = document.getElementsByClassName("modal-download-unicode-glyph")[0].getElementsByTagName("i")[0];
+  // var modaldownloadunicode_p = document.getElementsByClassName("modal-download-unicode")[0].getElementsByTagName("p")[0];
   var modaldownloadiframe_p = document.getElementsByClassName("modal-download-iframe")[0].getElementsByTagName("p")[0];
   
   var classname = elem.getElementsByTagName("i")[0].className;
@@ -38,9 +38,9 @@ function showModal(elem){
   var oldclass = modaliconholder.className;
   modaliconholder.classList.remove(oldclass);
   modaliconholder.classList.add(classname);
-  oldclass = modaldownloadfont_i.className;
-  modaldownloadfont_i.classList.remove(oldclass);
-  modaldownloadfont_i.classList.add(classname);
+  oldclass = modaldownloadunicodeglyph_i.className;
+  modaldownloadunicodeglyph_i.classList.remove(oldclass);
+  modaldownloadunicodeglyph_i.classList.add(classname);
   modaltitle_p.innerText = title;
   modaldescription_p.innerText = description;
   modaladdress_p.innerText = address;
