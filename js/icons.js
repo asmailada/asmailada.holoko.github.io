@@ -22,8 +22,8 @@ function showModal(elem){
   var modal = document.getElementsByClassName("twi-modal")[0];
   var modaliconholder = document.getElementsByClassName("modal-icon-holder")[0].getElementsByTagName("i")[0];
   var modaltitle_p = document.getElementsByClassName("modal-title-holder")[0].getElementsByTagName("p")[0];
-  var modaldescription_p = document.getElementsByClassName("modal-description")[0].getElementsByTagName("p")[0];
-  var modaladdress_p = document.getElementsByClassName("modal-address")[0].getElementsByTagName("p")[0];
+  // var modaldescription_p = document.getElementsByClassName("modal-description")[0].getElementsByTagName("p")[0];
+  // var modaladdress_p = document.getElementsByClassName("modal-address")[0].getElementsByTagName("p")[0];
   // var modaldownload = document.getElementsByClassName("modal-download")[0];
   var modaldownloadunicodeglyph_i = document.getElementsByClassName("modal-download-unicode-glyph")[0].getElementsByTagName("i")[0];
   // var modaldownloadunicode_p = document.getElementsByClassName("modal-download-unicode")[0].getElementsByTagName("p")[0];
@@ -42,8 +42,8 @@ function showModal(elem){
   modaldownloadunicodeglyph_i.classList.remove(oldclass);
   modaldownloadunicodeglyph_i.classList.add(classname);
   modaltitle_p.innerText = title;
-  modaldescription_p.innerText = description;
-  modaladdress_p.innerText = address;
+  // modaldescription_p.innerText = description;
+  // modaladdress_p.innerText = address;
 
   modal.style.display = "block";
 }
